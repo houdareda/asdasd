@@ -1,0 +1,1102 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Luckiest Guy', cursive;
+    text-decoration: none;
+    transition: .4s;
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #38BB17;
+}
+.contanier{
+    width: 90%;
+    margin: 0 auto;
+}
+section{
+    margin-top: 100px;
+    text-align: center;
+}
+.sec-head{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.sec-head h2{
+    color: #fff;
+    font-size: 60px;
+}
+.sec-head h5{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.social-icons{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.social-icons .top{
+    display: flex;
+    gap: 50px;
+}
+.social-icons a img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+
+
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #94949450;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    z-index: 100;
+}
+header nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .logo{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    font-style: italic;
+}
+header nav .logo img{
+    width: 60px;
+    margin-right: 5px;
+}
+header nav .nav-links a{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    margin: 0 12px;
+}
+header nav .nav-links a.active,
+header nav .nav-links a:hover{
+    color: #dad1d4;
+}
+header nav .right-nav i{
+    color: #111;
+    font-size: 20px;
+    margin-left: 20px;
+}
+header nav .right-nav :hover{
+    color: #ffffff;
+}
+header .btn{
+    padding: 8px 30px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    font-size: 18PX;
+    color: #fff;
+    font-style: 18px;
+}
+#btn-menu{
+    display: none;
+}  
+
+
+
+/* start Hero Sec */
+
+.hero{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero .content{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero .content .text{
+    width: 600px;
+}
+.hero .content h1{
+    color: #fff;
+    font-size: 60px;
+    font-style: italic;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+.hero .content h4{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+.hero .content p{
+    color: #d6d6d6;
+    font-size: 26px;
+    line-height: 2;
+}
+.hero .content p.first{
+    margin-bottom: 10px;
+}
+.hero .img{
+    width: 45%;
+    margin-top: 120px;
+
+}
+.hero .img img{
+    width: 100%;
+    border-radius: 5px;
+}
+/* start about */
+
+.about{
+    margin-top:30px;
+}
+.about p{
+      color: #dad1d4;
+      margin-bottom: 50px;
+      line-height: 2;
+      font-size: 22px;
+}
+.about .content img{
+    width: 50%;
+}
+
+
+/* start how to buy sec */
+
+.howtobuy .contanier .boxs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.howtobuy .contanier .boxs .box{
+    width: 23%;
+    padding: 15px 20px;
+    border: 2px solid #000;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+.howtobuy .contanier .boxs .box h3{
+    font-size: 24px;
+    margin: 25px 0;
+}
+.howtobuy .contanier .boxs .box img{
+    width: 100px;
+    margin-top: 20px;
+}
+.howtobuy .contanier .boxs .box p{
+    color: #161616;
+    font-weight: 100;
+    line-height: 1.8;
+}
+.howtobuy .contanier .boxs .box.sm p{
+    line-height: 2.5;
+}
+
+/* start Ecosystem */
+.ecosystem .content{
+    width: 70%;
+    margin: auto;
+}
+.ecosystem .content h2{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.ecosystem .content p{
+    color: #fff;
+    font-size: 26px;
+    line-height: 1.7;
+}
+
+.ecosystem .content h3{
+    color: #fff;
+    margin: 80px 0 35px;
+    font-size: 40px;
+}
+
+.ecosystem table{
+    margin: 100px auto 0;
+    border: 2px solid #fff;
+}
+
+.ecosystem table td{
+    padding: 25px 30px;
+    letter-spacing: 1.3px;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #38BB17;
+}
+.ecosystem table th{
+    background-color: #fff;
+    color: #38BB17;
+}
+.ecosystem table th{
+    font-size: 35px;
+    padding: 25px 50px;
+}
+
+.ecosystem table td{
+    font-size: 25px;
+}
+
+.tokenomics .content h5{
+    color: #ebebeb;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 0 20px;
+}
+.tokenomics .content h5 span{
+    color: #fff;
+    font-size: 35px;
+    margin-right: 15px;
+    font-family: sans-serif;
+}
+.tokenomics .content h5:nth-child(2){
+    margin-bottom: 70px;
+}
+
+.tokenomics .btn{
+    padding: 20px 70px;
+    color: #000;
+    background-color: yellow;
+    margin-left: 50px;
+    font-size: 24px;
+    box-shadow: 3px 3px 8px #00000069;
+    border: 2px solid yellow;
+}
+.tokenomics .btn:hover{
+    background-color: transparent;
+    color: #fff;
+}
+.tokenomics .btn:nth-child(1){
+    margin-left: 0;
+}
+
+
+/* start circkle img sec*/
+
+.circle-img-dev {
+    margin-top: 150px;
+}
+.circle-img-dev .imgcric{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.circle-img-dev .crcimg{
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 50px;
+    width: 45%;
+}
+.circle-img-dev .cricle{
+    width: 100%;
+}
+.circle-img-dev .arrow{
+    color: #fff;
+    font-size: 100px;
+}
+.present .box{
+    position: relative;
+    background-color: #161616;
+    width: 400px;
+    margin-bottom: 25px;
+    padding: 20px 0;
+    text-align: left;
+    
+}
+.present .box span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 100%;
+}
+.present .box:nth-child(1) span{
+    background-color: #F1FF07;
+}
+.present .box:nth-child(2) span{
+    background-color: #B8B6C0;
+}
+.present .box:nth-child(3) span{
+    background-color: #A9F500;
+}
+.present .box:nth-child(4) span{
+    background-color: #C6DE14;
+}
+.present .box:nth-child(5) span{
+    background-color: #3BDCC2;
+}
+.present .box:nth-child(6) span{
+    background-color: #E5399B;
+}
+
+.present .box:last-child{
+    margin-bottom: 0;
+}
+.present .box h6{
+    color: #fff;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-left: 40px;
+
+}
+
+
+/* start road-map */
+.road-map .bigtablebro{
+    position: relative;
+    display: flex;
+    height: 1000px;
+}
+.road-map .bigtablebro .coulm{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 26px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    z-index: 1000;
+}
+.road-map .bigtablebro .leftbox,
+.road-map .bigtablebro .rightbox{
+    width: 50%;
+    position: relative;
+    top: 20px;
+}
+
+.road-map .bigtablebro .box{
+    position: absolute;
+    width: 40px;
+    min-height: 280px;
+}
+.road-map .bigtablebro .box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.road-map .bigtablebro .box span{
+    background-color: #fff;
+    color: #38BB17;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 25px;
+}
+.road-map .bigtablebro .box2{
+    background-color: #ffff;
+    border-radius: 30px; 
+    width: 400px;
+    height: 240px;
+    padding: 20px 30px;
+}
+.road-map .bigtablebro .leftbox .box{
+    right: 40px; 
+}
+.road-map .bigtablebro .leftbox .box ul{
+    text-align: right;
+}
+.road-map .bigtablebro .rightbox .box{
+    left: 40px;
+   
+}
+.road-map .bigtablebro .rightbox .box ul{
+    text-align: left;
+}
+.road-map .bigtablebro .box.b1{
+    top: 240px;
+}
+.road-map .bigtablebro .box.b2{
+    top: 480px;
+}
+.road-map .bigtablebro .box.b3{
+    top: 720px;
+}
+
+
+.road-map .bigtablebro .box h1{
+    color: #38BB17;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.road-map .bigtablebro .box ul li{
+    font-size: 17px;
+    line-height: 1.5;
+}
+.road-map .bigtablebro .box ul li i{
+    color: #38BB17;
+    margin-right: 5px;
+}
+
+
+/* start footer*/
+.footer{
+    border-top: 1px solid #1d1d1d63;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.534);
+    background-color: #2caa0c;
+    padding: 20px 0;
+}
+.footer .contanier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer .contanier .p{
+    color: #d6d6d6;
+    font-size: 15px;
+}
+.footer .social-icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.footer .social-icons a img{
+    width: 50px;
+}
+
+.mobile{
+    display: none;
+}
+.last-sec .boxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.last-sec .boxs .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 30px;
+ 
+}
+.last-sec .boxs .box .titlee{
+    text-align: left;
+}
+.last-sec .boxs .box img{
+    width: 80%;
+}
+.last-sec .boxs .box h4{
+    color: #000;
+    font-size: 27px;
+}
+.last-sec .boxs .box h5{
+    color: #222;
+}
+.last-sec .text {
+    padding-top: 50px;
+}
+.last-sec .text .sec-head{
+    margin-bottom: 30px;
+}
+.last-sec .text  p{
+    color: #fff;
+    font-size: 18px;
+}
+
+.circle-img-dev .contanier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-img-dev .div-img {
+    width: 50%;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    padding: 15px;
+}
+.circle-img-dev .div-img img{
+    width: 100%;
+}
+@media(max-width:1000px){
+
+    header nav .nav-links{
+        position: absolute;
+        top: -100vh;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: #38BB17;
+        height: 100vh;
+    }
+    header nav .nav-links.active{
+        top: 100%;
+    }
+    header nav .nav-links a{
+        font-size: 22px;
+        padding: 20px 35px;
+        border-top: 1px solid #6060607c;
+        margin: 0;
+        text-align: center;
+    }
+    header nav .right-nav{
+        display: flex;
+        align-items: center;
+    }
+    header nav #btn-menu{
+        display: block;
+        margin-left: 15px;
+        margin-right: 10px;
+        font-size: 24px;
+        color: #fff;
+    }
+    .hero .content .img{
+        width: 55%;
+    }
+    .hero .content .text{
+        width: 550px;
+    }
+    .social-icons{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+    }
+    .social-icons a img{
+        width: 80px;
+        border-radius: 50%;
+    }
+    .ecosystem table{
+        margin: 100px auto 0;
+    }
+    .ecosystem table td{
+        padding: 5px 5px;
+    }
+    .ecosystem table th{
+        font-size: 25px;
+        padding: 20PX 20PX;
+    }
+    .ecosystem table td{
+        font-size: 16px;
+    }
+    .howtobuy .contanier .boxs .box{
+        width: 48%;
+    }
+    .tokenomics .content h5{
+        color: #ebebeb;
+        font-size: 22px;
+    }
+    .tokenomics .content h5 span{
+        font-size: 30px;
+    }
+    .tokenomics .content h5:nth-child(2){
+        margin-bottom: 70px;
+    }
+    .circle-img-dev .imgcric{
+        flex-direction: column-reverse;
+    }
+    .circle-img-dev .crcimg{
+        width: 70%;
+    }
+    .circle-img-dev .arrow{
+        transform: rotate(90deg);
+    }
+
+
+    .road-map .bigtablebro{
+        height: 1000px;
+    }
+    .road-map .bigtablebro .coulm{
+        width: 26px;
+    }
+    
+    .road-map .bigtablebro .box{
+        height: 220px;
+    }
+    .road-map .bigtablebro .box span{
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 25px;
+    }
+    .road-map .bigtablebro .box2{
+        width: 300px;
+        height: 240px;
+        padding: 20px 30px;
+    }
+    .road-map .bigtablebro .leftbox .box{
+        right: 40px; 
+    }
+    .road-map .bigtablebro .leftbox .box ul{
+        text-align: right;
+    }
+    .road-map .bigtablebro .rightbox .box{
+        left: 40px;
+       
+    }
+    .road-map .bigtablebro .rightbox .box ul{
+        text-align: left;
+    }
+    .road-map .bigtablebro .box:nth-child(2){
+        top: 240px;
+    }
+    .road-map .bigtablebro .box:nth-child(3){
+        top: 480px;
+    }
+    .road-map .bigtablebro .box:nth-child(4){
+        top: 720px;
+    }
+    .road-map .bigtablebro .box h1{
+        color: #38BB17;
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .road-map .bigtablebro .box ul li{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .footer .social-icons{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+    .footer .social-icons a img{
+        width: 45px ;
+    } 
+}
+
+
+
+
+@media (max-width:770px) {
+    .hero{
+        height: 100%;
+    }
+    .hero .content{
+        flex-direction: column;
+        margin-top: 130px;
+    }
+    .hero .content .text{
+        width: 100%;
+    }
+    .hero .content p{
+        font-size: 22px;
+        line-height: 1.6;
+    }
+    .hero .img{
+        width: 40%;
+        margin-top: 50px;
+    }
+    .about{
+        margin-top: 50px;
+    }
+    .social-icons{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+    .social-icons .top{
+        display: flex;
+        gap: 20px;
+    }
+    .social-icons a img{
+        width: 60px;
+        border-radius: 50%;
+    }
+    .howtobuy .contanier .boxs .box{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .ecosystem table{
+        margin: 100px auto 0;
+    }
+    .ecosystem table td{
+        padding: 5px 2px;
+    }
+    .ecosystem table th{
+        font-size: 22px;
+        padding: 20PX 20PX;
+    }
+    .ecosystem table td{
+        font-size: 14px;
+    }
+    .tokenomics .content h5{
+        color: #ebebeb;
+        font-size: 20px;
+    }
+    .tokenomics .content h5 span{
+        font-size: 25px;
+    }
+    .tokenomics .btn{
+        padding: 18px 50px;
+        margin-left: 30px;
+        font-size: 22px;
+    }
+    .road-map .bigtablebro .box2{
+        width: 90%;
+    }
+    .footer .social-icons{
+        gap: 15px;
+    }
+    .footer .social-icons a img{
+        width: 30px ;
+    }
+    .footer .contanier{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .footer .contanier p{
+        font-size: 13px;
+    }
+    
+    
+
+    
+}
+@media (max-width:550px){
+    .sec-head h2{
+        color: #fff;
+        font-size: 45px;
+    }
+    .sec-head h5{
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .hero .content .img{
+        width: 70%;
+    }
+    .hero .content p{
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    .hero .content h1{
+        font-size: 45px;
+    }
+    .about .content img {
+        width: 70%;
+    }
+    .social-icons{
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .social-icons .top{
+        display: flex;
+        gap: 40px;
+    }
+    .social-icons a img{
+        width: 80px;
+        border-radius: 50%;
+    }
+    .about p{
+        font-size: 18px;
+    }
+    .howtobuy .contanier .boxs .box{
+        width: 90%;
+    }
+    .ecosystem .content h2{
+        color: #fff;
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    
+    .ecosystem .content p{
+        color: #fff;
+        font-size: 20px;
+        line-height: 1.7;
+    }
+    
+    .ecosystem .content h3{
+        color: #fff;
+        margin: 50px 0 25px;
+        font-size: 30px;
+    }
+    .ecosystem table{
+        margin: 100px auto 0;
+    }
+    .ecosystem table td{
+        padding: 5px 2px;
+    }
+    .ecosystem table th{
+        font-size: 18px;
+        padding: 12PX 12PX;
+    }
+    .ecosystem table td{
+        font-size: 12px;
+    }
+    .tokenomics .content h5{
+        color: #ebebeb;
+        font-size: 16px;
+    }
+    .tokenomics .content h5 span{
+        font-size: 18px;
+    }
+    .tokenomics .btn{
+        padding: 16px 40px;
+        margin-left: 25px;
+        font-size: 20px;
+    }
+    .present .box{
+        width: 100%;
+        padding: 17px 0;
+    }
+    .present .box h6{
+        font-size: 22px;
+    }
+    .present{
+        width: 90%;
+        margin: auto;
+    }
+    .circle-img-dev .crcimg{
+        width: 85%;
+    }
+    .road-map .bigtablebro .coulm{
+        width: 18px;
+        display: none;
+    }
+    .road-map .bigtablebro .box2{
+        width: 90%;
+        height: 240px;
+        padding: 20px 15px;
+    }
+    .road-map .bigtablebro .box h1{
+        color: #38BB17;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .road-map .bigtablebro .box ul li{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .road-map .bigtablebro .rightbox .box{
+        left: 20px;
+       
+    }
+    .road-map .bigtablebro .leftbox .box{
+        right: 20px; 
+    }
+    .road-map .bigtablebro .box3{
+        display: none;
+    }
+    .road-map .bigtablebro{
+        flex-direction: column;
+    }
+    .road-map .bigtablebro .leftbox,
+    .road-map .bigtablebro .rightbox{
+        width: 100%;
+      
+    }
+    .road-map .bigtablebro .leftbox .box,
+    .road-map .bigtablebro .rightbox .box{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 75%;
+        margin: auto;
+        margin-bottom: 30px;
+
+    }
+    .road-map .bigtablebro .leftbox .box ul,
+    .road-map .bigtablebro .rightbox .box ul{
+        text-align: center !important;
+    }
+    .road-map .bigtablebro .box ul li{
+        font-size: 17px;
+    }
+    .laptop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .last-sec .boxs .box{
+        margin-bottom: 5px;
+    }
+    .road-map .bigtablebro{
+        height: 1200px;
+    }
+    .circle-img-dev .div-img {
+        width: 90%;
+    }
+   
+}
+
+
+@media (max-width:470px){
+    .hero .content h4{
+        font-size: 23px;
+        margin-bottom: 30px;
+    }
+    .sec-head h2{
+        color: #fff;
+        font-size: 35px;
+    }
+    .sec-head h5{
+        font-size: 22px;
+        margin-top: 30px;
+    }
+    .contanier{
+        width: 95%;
+    }
+    header nav{
+        height: 80px;
+    }
+    .hero .content{
+        margin-top: 100px;
+    }
+    .hero .content .img{
+        width: 100%;
+    }
+    header nav .logo img{
+        width: 55px;
+    }
+    header .btn{
+        padding: 8px 20px;
+        font-size: 16PX;
+    }
+    header nav .logo{
+        color: #fff;
+        font-size: 30px;
+    }
+    .about .content img {
+        width: 90%;
+    }
+    .howtobuy .contanier .boxs .box{
+        width: 100%;
+    }
+    .road-map .bigtablebro .leftbox .box, .road-map .bigtablebro .rightbox .box {
+        width: 80%;
+        min-height: 260px;
+    }
+    .ecosystem table{
+        margin-top: 50px;
+    }
+    .tokenomics .content h5{
+        color: #ebebeb;
+        font-size: 16px;
+    }
+    .tokenomics .content h5 span{
+        font-size: 18px;
+    }
+    .tokenomics .btn{
+        padding: 14px 30px;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+    .present .box{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 25px; 
+    }
+        .road-map .bigtablebro .box h1{
+        color: #38BB17;
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .road-map .bigtablebro .box ul li{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .footer .social-icons{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+    .last-sec .boxs .box{
+        width: 32%;
+    }
+    .last-sec .boxs .box img{
+        width: 100%;
+    }
+    .road-map .bigtablebro{
+        height: 1100px;
+    }
+    .circle-img-dev {
+        margin-top: 80px;
+    }
+    
+    
+}
+@media (max-width:350px){
+    header nav .logo img{
+        width: 50px;
+    }
+    header .btn{
+        padding: 7px 15px;
+        font-size: 14PX;
+    }
+    header nav .logo{
+        color: #fff;
+        font-size: 25px;
+    }
+    header nav #btn-menu{
+        font-size: 22px;
+        margin-right: 2px;
+    }
+    .social-icons .top{
+        display: flex;
+        gap: 30px;
+    }
+    .social-icons a img{
+        width: 60px;
+        border-radius: 50%;
+    }
+    .ecosystem table th{
+        font-size: 14px;
+        padding: 5PX 5PX;
+    }
+    .ecosystem table td{
+        font-size: 10px;
+    }
+    .tokenomics .content h5{
+        color: #ebebeb;
+        font-size: 14px;
+    }
+    .tokenomics .content h5 span{
+        font-size: 14px;
+    }
+    .tokenomics .btn{
+        padding: 12px 25px;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    .road-map .bigtablebro .box h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .road-map .bigtablebro .leftbox .box,
+    .road-map .bigtablebro .rightbox .box{
+        width: 80%;
+        max-height: 100%;
+    }
+      .road-map .bigtablebro .box ul li{
+        font-size: 13px;
+        line-height: 1.4;
+    }
+}
